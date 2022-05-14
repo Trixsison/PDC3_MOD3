@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PDC3_MOD3.activity3" Title="Grid">
+    <ContentPage.Content>
+        <StackLayout Padding="20">
+            <!--<Label Text="Welcome to Xamarin.Forms!"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />-->
+            <BoxView Grid.Row="1" Grid.ColumnSpan="2" Color="LightBlue"/>
+            <Label Grid.Row="1" Grid.ColumnSpan="2" Text="0"
+                   HorizontalOptions="End"
+                   VerticalOptions="End"/>
+
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+               
+                <Button Grid.Row="0"
+                    Grid.Column="0"
+                    Text="C"
+                        FontSize="Large"
+                        FontAttributes="Bold"
+                        Padding="35"/>
+                <Button Grid.Row="0"
+                    Grid.Column="1"
+                    Text="X"
+                        FontSize="Large"
+                        FontAttributes="Bold"
+                        Padding="35"/>
+                <Button Grid.Row="0"
+                    Grid.Column="2"
+                    Text="%"
+                        FontSize="Large"
+                        FontAttributes="Bold"
+                        Padding="35"/>
+                <Button Grid.Row="0"
+                    Grid.Column="3"
+                    Text="/"
+                        FontSize="Large"
+                        FontAttributes="Bold"
+                        Padding="35"/>
+
+                <Button 
+                    Grid.Row="1"
+                    Grid.Column="0"
+                    Text="1"
+                    FontSize="Large"
+                    FontAttributes="Bold"
+                    Padding="35"/>
+                <Button 
+                    Grid.Row="1"
+                    Grid.Column="1"
+                    Text="2"
+                    FontSize="Large"
+                    FontAttributes="Bold"
+                    Padding="35"/>
+                <Button 
+                    Grid.Row="1"
+                    Grid.Column="2"
+                    Text="3"
+                    FontSize="Large"
+                    FontAttributes="Bold"
+                    Padding="35"/>
+                <Button 
+                    Grid.Row="1"
+                    Grid.Column="3"
+                    Text="*"
+                    FontSize="Large"
+                    FontAttributes="Bold"
+                    Padding="35"/>
+                <Button 
+                    Grid.Row="2"
+                    Grid.Column="0"
+                    Text="4"
+                    FontSize="Large"
+                    FontAttributes="Bold"
+                    Padding="35"/>
+                <Button 
+                    Grid.Row="2"
+                    Grid.Column="1"
+                    Text="5"
+                    FontSize="Large"
+                    FontAttributes="Bold"
+                    Padding="35"/>
+                <Button 
+                    Grid.Row="2"
+                    Grid.Column="2"
+                    Text="6"
+                    FontSize="Large"
+                    FontAttributes="Bold"
+                    Padding="35"/>
+                <Button 
+                    Grid.Row="2"
+                    Grid.Column="3"
+                    Text="-"
+                    FontSize="Large"
+                    FontAttributes="Bold"
+                    Padding="35"/>
+                <Button 
+                    Grid.Row="3"
+                    Grid.Column="0"
+                    Text="7"
+                    FontSize="Large"
+                    FontAttributes="Bold"
+                    Padding="35"/>
+                <Button 
+                    Grid.Row="3"
+                    Grid.Column="1"
+                    Text="8"
+                    FontSize="Large"
+                    FontAttributes="Bold"
+                    Padding="35"/>
+                <Button 
+                    Grid.Row="2"
+                    Grid.Column="2"
+                    Text="9"
+                    FontSize="Large"
+                    FontAttributes="Bold"
+                    Padding="35"/>
+                <Button 
+                    Grid.Row="3"
+                    Grid.Column="3"
+                    Grid.RowSpan="2"
+                    Text="+"
+                    FontSize="Large"
+                    FontAttributes="Bold"
+                    Padding="35"/>
+                <Button 
+                    Grid.Row="4"
+                    Grid.Column="0"
+                    Text="."
+                    FontSize="Large"
+                    FontAttributes="Bold"
+                    Padding="35"/>
+                <Button 
+                    Grid.Row="4"
+                    Grid.Column="1"
+                    Text="0"
+                    FontSize="Large"
+                    FontAttributes="Bold"
+                    Padding="35"/>
+                <Button 
+                    Grid.Row="4"
+                    Grid.Column="2"
+                    Text="="
+                    FontSize="Large"
+                    FontAttributes="Bold"
+                    Padding="35"/>
+            </Grid>
+            
+
+
+
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

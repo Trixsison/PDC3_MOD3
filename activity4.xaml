@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PDC3_MOD3.activity4" Title="Absolute Layout">
+    <ContentPage.Content>
+        <StackLayout Padding="20" BackgroundColor="LightPink">
+            <!--<Label Text="Welcome to Xamarin.Forms!"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />-->
+            <Frame BackgroundColor="LightPink" BorderColor="LightCyan" Padding="5">
+                <StackLayout Orientation="Horizontal">
+                    <BoxView Color="White"></BoxView>
+                    <Label Text="Registration Form" TextColor="Black"></Label>
+                </StackLayout>
+            </Frame>
+            <AbsoluteLayout Padding="20" VerticalOptions="CenterAndExpand">
+
+                <Entry AbsoluteLayout.LayoutBounds="0, 40, 1, 40"
+                       AbsoluteLayout.LayoutFlags="XProportional,WidthProportional"
+                    Placeholder="Name" HorizontalOptions="FillAndExpand"/>
+
+                <Entry AbsoluteLayout.LayoutBounds="0, 40, 1, 40"
+                       AbsoluteLayout.LayoutFlags="XProportional,WidthProportional"
+                    Placeholder="Email" HorizontalOptions="FillAndExpand"/>
+
+                <Entry AbsoluteLayout.LayoutBounds="0, 40, 1, 40"
+                       AbsoluteLayout.LayoutFlags="XProportional,WidthProportional"
+                    Placeholder="Contact Number" HorizontalOptions="FillAndExpand"/>
+
+                <Entry AbsoluteLayout.LayoutBounds="0, 40, 1, 40"
+                       AbsoluteLayout.LayoutFlags="XProportional, WidthProportional"
+                    Placeholder="Username" HorizontalOptions="FillAndExpand"/>
+                
+                <Entry AbsoluteLayout.LayoutBounds="0, 100, 1, 40"
+                       AbsoluteLayout.LayoutFlags="XProportional,WidthProportional"
+                    Placeholder="Password" HorizontalOptions="FillAndExpand"/>
+
+                
+
+
+                <Button Text="Login"
+                        AbsoluteLayout.LayoutBounds="0, 190, 1, 40"
+                        AbsoluteLayout.LayoutFlags="XProportional, WidthProportional"/>
+                
+            </AbsoluteLayout>
+       
+
+
+            <Button Text="Return to Home" Clicked="backpage"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

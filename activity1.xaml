@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PDC3_MOD3.activity1" Title="StackLayout">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="LightPink" Padding="30, 30, 30, 30" Margin="20, 20, 20, 20" Spacing="10">
+            <!--<Label Text="Welcome to Xamarin.Forms!"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />-->
+            <Label BackgroundColor="Black" Text="Vocabulary" TextColor="White"/>
+            <Label BackgroundColor="Azure" Text="analogous — comparable or similar"/>
+            <Label BackgroundColor="PaleVioletRed" Text="binary — something that consists of two parts"/>
+            <Label BackgroundColor="GreenYellow" Text="carpe diem — the idea of living in the moment and not worrying about the future (translates to 'seize the day')"/>
+            <Label BackgroundColor="Orange" Text="diction — the clearness and effectiveness of enunciation when speaking, or choice of words"/>
+            
+            <Button Text="Return to Home" Clicked="backpage"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

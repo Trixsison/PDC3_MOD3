@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PDC3_MOD3.activity6" Title="Display Image">
+    <ContentPage.Content>
+        <StackLayout>
+            <!--<Label Text="Welcome to Xamarin.Forms!"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />-->
+            <Frame BackgroundColor="LightBlue" Padding="24" CornerRadius="0">
+                <Label Text="ANGELES UNIVERSITY FOUNDATION"
+                   FontFamily="Times New Roman"
+                   TextColor="Blue"
+                   VerticalOptions="CenterAndExpand"
+                   HorizontalOptions="CenterAndExpand"/>
+            </Frame>
+            <Image Source="auf-logo.png" Aspect="Fill"/>
+
+
+
+
+            <Button Text="Return to Home" Clicked="backpage"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

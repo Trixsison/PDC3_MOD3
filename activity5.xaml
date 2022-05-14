@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PDC3_MOD3.activity5" Title="Relative Layout">
+    <ContentPage.Content>
+        <StackLayout>
+            <!--<Label Text="Welcome to Xamarin.Forms!"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />-->
+            <RelativeLayout>
+                <BoxView x:Name="Boxview1" tex Color="Pink" 
+                         RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=1}"
+                         RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=0.3}"/>
+
+                <BoxView Color="Black"
+                         RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToView, ElementName=BoxView1, Property=Height, Factor=0.9}"
+                         RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToView, ElementName=BoxView1, Property=Width, Factor=0.4}"/>
+
+
+            </RelativeLayout>
+
+            
+            
+
+            <Button Text="Return to Home" Clicked="backpage"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

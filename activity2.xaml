@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PDC3_MOD3.activity2" Title="StackLayout and Frame">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="Black" Margin="30">
+            <!--<Label Text="Welcome to Xamarin.Forms!"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />-->
+            <Label Text="Button Styles for Actions" TextColor="FloralWhite"></Label>
+            
+            <Frame BackgroundColor="LightPink" BorderColor="LightCyan" Padding="5">
+
+                <StackLayout Orientation="Horizontal">
+
+                    <BoxView Color="Blue"></BoxView>
+                    <Label Text="Primary" TextColor="White"></Label>
+
+                </StackLayout>
+            </Frame>
+
+            <Frame BackgroundColor="LightPink" BorderColor="LightCyan" Padding="5">
+
+                <StackLayout Orientation="Horizontal">
+
+                    <BoxView Color="Gray"></BoxView>
+                    <Label Text="Secondary" TextColor="White"></Label>
+
+                </StackLayout>
+            </Frame>
+
+            <Frame BackgroundColor="LightPink" BorderColor="LightCyan" Padding="5">
+
+                <StackLayout Orientation="Horizontal">
+
+                    <BoxView Color="Green"></BoxView>
+                    <Label Text="Success" TextColor="White"></Label>
+
+                </StackLayout>
+            </Frame>
+
+            <Frame BackgroundColor="LightPink" BorderColor="LightCyan" Padding="5">
+
+                <StackLayout Orientation="Horizontal">
+
+                    <BoxView Color="Red"></BoxView>
+                    <Label Text="Danger" TextColor="White"></Label>
+
+                </StackLayout>
+            </Frame>
+
+            <Frame BackgroundColor="LightPink" BorderColor="LightCyan" Padding="5">
+
+                <StackLayout Orientation="Horizontal">
+
+                    <BoxView Color="Yellow"></BoxView>
+                    <Label Text="Warning" TextColor="White"></Label>
+
+                </StackLayout>
+            </Frame>
+
+            <Frame BackgroundColor="LightPink" BorderColor="LightCyan" Padding="5">
+
+                <StackLayout Orientation="Horizontal">
+
+                    <BoxView Color="LightBlue"></BoxView>
+                    <Label Text="Info"></Label>
+
+                </StackLayout>
+            </Frame>
+
+
+
+
+
+            <Button Text="Return to Home" Clicked="backpage"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
